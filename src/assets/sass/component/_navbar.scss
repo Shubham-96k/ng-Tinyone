@@ -1,0 +1,26 @@
+
+.mainnavbar{
+    margin-bottom: 4.375rem;
+    &.navbar{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    &.navbar-light .navbar-nav .nav-item{
+        margin-left: 4rem;
+    }
+    &.navbar-light .navbar-nav .nav-link{
+        color: $color-secondary;
+        font-size: 1.375rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        transition: all .3s ease-in-out;
+        &:hover,&:focus{
+            text-decoration: underline;
+            transform: translateY(-5px);
+        }
+        &:active{
+            transform: translateY(5px);
+        }
+    }
+}
+

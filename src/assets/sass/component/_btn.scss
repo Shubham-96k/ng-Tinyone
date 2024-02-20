@@ -1,0 +1,16 @@
+.btn-footer{
+    background-color: $color-primary;
+    color: $color-dark;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    border: 2px solid $color-primary;
+    &:hover,&:focus{
+        background-color: $color-dark;
+        color: $color-primary;
+    }
+    &:active{
+        scale: 0.9;
+    }
+}

@@ -1,0 +1,27 @@
+.heroicon{
+    li{
+        display: inline-block;
+        margin-right: 2rem;
+        a{
+            transition: all .3s ease-in-out;
+            color: $color-dark; 
+            height: 100%;
+            display: inline-block;
+            &:hover{
+                scale: 1.3;
+            }
+        }
+        
+    }
+}
+
+.footer{
+    .heroicon{
+            a{
+            
+                color: $color-primary; 
+               
+        }
+            
+    }
+}

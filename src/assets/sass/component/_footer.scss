@@ -1,0 +1,14 @@
+  .footer{
+    background-color: $color-dark;
+    .pri-heading{
+        color: $color-primary;
+    }
+    .sec-heading{
+        color: $color-text-ter;
+        margin-bottom: 2.5rem
+    }
+    .form-control{
+        width: calc(100% - 110px);
+    }
+
+  }

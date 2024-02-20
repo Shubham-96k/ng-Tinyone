@@ -1,0 +1,13 @@
+@import "../../../../assets/sass/abstract/var";
+
+.footerlinks{
+    li{
+        display: block;
+        margin-bottom: 0.5rem;
+        a{
+            color: $color-white;
+            text-transform: capitalize;
+            margin-bottom: 1rem;
+        }
+    }
+}

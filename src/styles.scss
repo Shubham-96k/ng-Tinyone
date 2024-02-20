@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import "./assets/sass/abstract/var";
+@import "./assets/sass/abstract/mixin";
+
+@import "./assets/sass/base/utility";
+@import "./assets/sass/base/typography";
+
+@import "./assets/sass/component/heroimg";
+@import "./assets/sass/component/navbar";
+@import "./assets/sass/component/feature"; 
+@import "./assets/sass/component/footer";
+@import "./assets/sass/component/icon";
+@import "./assets/sass/component/btn";
+
+::selection{
+    background-color: $color-dark; 
+    color: $color-primary;
+}

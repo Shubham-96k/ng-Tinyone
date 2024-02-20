@@ -1,0 +1,17 @@
+<ul [attr.class]="iconclass" *ngIf="iconclass === 'heroicon' else footer">
+    <li *ngFor="let icon of geticon">
+        <a href="{{icon.link}}">
+            <fa-icon class="fa-2x" [icon]="icon.icon"></fa-icon>
+        </a>
+    </li>
+</ul>
+
+<ng-template #footer>
+    <ul [attr.class]="iconclass">
+        <li *ngFor="let icon of geticon2">
+            <a href="{{icon.link}}">
+                {{icon.icon}}
+            </a>
+        </li>
+    </ul>
+</ng-template>

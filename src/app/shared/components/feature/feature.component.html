@@ -1,0 +1,16 @@
+
+<section class="feature section">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1 text-center">
+                <h1 class="pri-heading">Tinyone features</h1>
+                <h2 class="sec-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4" *ngFor="let icon of iconsarr">
+                <app-feature-card [getfeaticon]="icon"></app-feature-card>
+            </div>
+        </div>
+    </div>
+</section>

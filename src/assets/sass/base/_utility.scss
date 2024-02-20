@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    padding : 0;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.pri-heading{
+    color: $color-secondary;
+    font-size : 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.sec-heading{
+    color: $color-text-pri;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.para{
+   font-size: 1rem;
+   color: $color-text-sec;
+   margin-bottom: 2.5rem; 
+}
+
+.mb-70{
+    margin-bottom: 5rem;
+}
